@@ -30,7 +30,6 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
     - name: SonarCloud scan
-        if: inputs.run_sonarcloud_scan == true
         uses: SonarSource/sonarcloud-github-action@v1.6
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
