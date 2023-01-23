@@ -5,14 +5,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>csabatest</artifactId>
+    <artifactId>sc-java-test</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
          <maven.compiler.source>11</maven.compiler.source>
          <maven.compiler.target>11</maven.compiler.target>
-         <sonar.organization>csab</sonar.organization>
-         <sonar.host.url>https://squad-1-core.sc-dev.io</sonar.host.url>
+        <sonar.organization>csab</sonar.organization>
+        <sonar.host.url>https://squad-1-core.sc-dev.io</sonar.host.url>
     </properties>
   <dependencies>
   <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
