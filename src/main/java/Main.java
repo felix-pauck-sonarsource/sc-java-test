@@ -38,6 +38,7 @@ public class Main {
 
 
     SSLContext context = sslContext("ASAD", "DEZZS");
+    SSLContext context1 = sslContext("ASAD", "DEZZS");
 
 
     System.out.println(context);
